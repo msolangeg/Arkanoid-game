@@ -1,20 +1,32 @@
 <title>Arkanoid en javascripts</title>
 <style>
+  header {
+    color: #8a4db3;
+    font-size: 30;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+  }
   body {
-    background-color: #111;
+    background-color: rgb(93, 34, 120);
   }
 
   canvas {
-    border: 5px solid pink;
+    border: 5px solid #8a4db3;
     border-bottom: transparent;
     background:url('./arkanoidFondo.jpg');
-    background-size: 690px;
+    background-size: 1000px;
+    height: 60vh;
     background-position: center;
     margin: 0 auto;
     display: block;
   }
+  
 </style>
 
+<header>
+  <h1>ARKANOID CLONE</h1>
+</header>
 <canvas></canvas>
 
 <img hidden id="sprite" src="./paddle.png" alt="sprite arkanoid" />
