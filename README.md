@@ -21,6 +21,8 @@ El juego se juega usando las teclas de flecha izquierda y derecha para mover la 
 Para destruir un ladrillo, la bola debe golpearlo directamente.
 
 El juego termina cuando hayas destruido todos los ladrillos o cuando la bola haya caído fuera de la pantalla.
+</br>
+Deploy: https://arkanoid-clone.netlify.app/
 
 
 <h2>Agradecimientos:</h2></br>
